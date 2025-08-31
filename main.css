@@ -81,6 +81,8 @@ fonde de cada plan:                 --- #272727
   display: block;
   width: 266px;
   height: 80px;
+  object-fit: contain;
+  object-position: center;
 }
 .top-nav {
   display: flex;
@@ -221,6 +223,8 @@ fonde de cada plan:                 --- #272727
     margin-left: auto;
     margin-right: auto;
     background-color: #000000;
+    object-fit: contain;
+    object-position: center;
   }
 }
 @media (max-height: 400px) {
@@ -233,6 +237,8 @@ fonde de cada plan:                 --- #272727
   .logotipo {
     width: 200px;
     height: 60px;
+    object-fit: contain;
+    object-position: center;
   }
   .navlist {
     padding: 1em 0.5em;
@@ -243,6 +249,8 @@ fonde de cada plan:                 --- #272727
   .logotipo {
     width: 400px;
     height: 120px;
+    object-fit: contain;
+    object-position: center;
   }
   .navlist {
     padding: 1em 1em;
