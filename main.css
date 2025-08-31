@@ -803,6 +803,22 @@ footer {
   margin-top: 0;
 }
 
+.derechos a {
+  color: #fcc700;
+  font-style: italic;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.derechos a:hover {
+  color: #c0c0c0;
+}
+
+.derechos a:visited {
+  color: #fcc700;
+  text-decoration: none;
+}
+
 .social-icons {
   display: flex;
   gap: 15px;
@@ -845,6 +861,16 @@ footer {
   .derechos a {
     color: #fcc700;
     font-style: italic;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+
+  .derechos a:hover {
+    color: #c0c0c0;
+  }
+
+  .derechos a:visited {
+    color: #fcc700;
     text-decoration: none;
   }
 }
